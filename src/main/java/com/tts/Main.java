@@ -1,8 +1,7 @@
 package com.tts;
 
 public class Main {
-    public Main() {
-    }
+
 
     public static void printOpeningHours() {
         System.out.println("Libraries are open daily from 9 AM to 5 PM.");
