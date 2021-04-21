@@ -27,8 +27,8 @@ public class Main {
         firstLibrary.addBook(new Book("The Lord of the Rings"));
         System.out.println("Library hours:");
         printOpeningHours();
-        System.out.println();
-        System.out.println("Library addresses:");
+       System.out.println();
+      System.out.println("Library addresses:");
         firstLibrary.printAddress();
         secondLibrary.printAddress();
         System.out.println();
