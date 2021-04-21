@@ -8,6 +8,17 @@ public class Main {
     }
 
     public static void main(String[] args) {
+        System.out.println("\n===== Book ========");
+        Book example = new Book("The Da Vinci Code");
+        System.out.println("Title (should be The Da Vinci Code): " + example.getTitle());
+        System.out.println("Borrowed? (should be false): " + example.isBorrowed());
+        example.borrowed();
+        System.out.println("Borrowed? (should be true): " + example.isBorrowed());
+        example.returned();
+        System.out.println("Borrowed? (should be false): " + example.isBorrowed());
+
+        System.out.println();
+        System.out.println("\n===== Library ========");
         Library firstLibrary = new Library("10 Main St.");
         Library secondLibrary = new Library("228 Liberty St.");
         firstLibrary.addBook(new Book("The Da Vinci Code"));
